@@ -1,0 +1,13 @@
+<suite name="Reports" verbose="1">
+	<test name="ReportsResult">
+		<groups>
+			<run>
+				<include name= "Regression" />
+				<exclude name ="sanity"/>
+			</run>
+		</groups>
+		<classes>
+			<class name="Reports_TestSuite" />
+		</classes>
+	</test>
+</suite>
